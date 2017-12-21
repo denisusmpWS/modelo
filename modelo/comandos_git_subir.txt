@@ -1,0 +1,25 @@
+comandos git
+
+$ cd E:/works/git/proyects
+
+
+$ git clone https://github.com/denisusmpWS/modelo.git
+
+$ git init
+Initialized empty Git repository in E:/works/git/proyects/.git/
+
+
+$ dir
+modelo
+
+$ git add modelo
+
+$ git commit -m 'se sube proyectos eureka-config-provider-feign'
+
+$ git remote add origin https://github.com/denisusmpWS/modelo.git
+
+$ git push origin master
+
+
+Listo......
+
