@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: proy-feign-client-demo #nombre de archivo .yml del repositorio github
+  profiles:
+    active: dev #profile por defecto el normal
+  cloud:
+    config:
+      uri: http://localhost:1001
+

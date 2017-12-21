@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/denisusmpWS/name_proyect
+          search-paths: app
+        native: classpath:offline-repository/
+  application:
+    name: proy-config-server
+server:
+  port: 1001
+
+
+#CONFIGURATION:
+#profile:
+#   default: http://localhost:1001/demoapp/default
+#   qa: http://localhost:1001/demoapp/qa -> default + qa
+#   prod: http://localhost:1001/demoapp/prod -> default + qa
